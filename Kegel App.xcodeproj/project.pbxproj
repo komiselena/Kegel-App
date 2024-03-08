@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */; };
+		049BD9812B9B5496009D3C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9802B9B5496009D3C0E /* ContentView.swift */; };
+		049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9822B9B5499009D3C0E /* Assets.xcassets */; };
+		049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */; };
+		049BD9902B9B5499009D3C0E /* Kegel_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD98F2B9B5499009D3C0E /* Kegel_AppTests.swift */; };
+		049BD99A2B9B5499009D3C0E /* Kegel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9992B9B5499009D3C0E /* Kegel_AppUITests.swift */; };
+		049BD99C2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD99B2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049BD98C2B9B5499009D3C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049BD9732B9B5496009D3C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049BD97A2B9B5496009D3C0E;
+			remoteInfo = "Kegel App";
+		};
+		049BD9962B9B5499009D3C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049BD9732B9B5496009D3C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049BD97A2B9B5496009D3C0E;
+			remoteInfo = "Kegel App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049BD97B2B9B5496009D3C0E /* Kegel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kegel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppApp.swift; sourceTree = "<group>"; };
+		049BD9802B9B5496009D3C0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		049BD9822B9B5499009D3C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049BD98B2B9B5499009D3C0E /* Kegel AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kegel AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BD98F2B9B5499009D3C0E /* Kegel_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppTests.swift; sourceTree = "<group>"; };
+		049BD9952B9B5499009D3C0E /* Kegel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kegel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049BD9992B9B5499009D3C0E /* Kegel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppUITests.swift; sourceTree = "<group>"; };
+		049BD99B2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049BD9782B9B5496009D3C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9882B9B5499009D3C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9922B9B5499009D3C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049BD9722B9B5496009D3C0E = {
+			isa = PBXGroup;
+			children = (
+				049BD97D2B9B5496009D3C0E /* Kegel App */,
+				049BD98E2B9B5499009D3C0E /* Kegel AppTests */,
+				049BD9982B9B5499009D3C0E /* Kegel AppUITests */,
+				049BD97C2B9B5496009D3C0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049BD97C2B9B5496009D3C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049BD97B2B9B5496009D3C0E /* Kegel App.app */,
+				049BD98B2B9B5499009D3C0E /* Kegel AppTests.xctest */,
+				049BD9952B9B5499009D3C0E /* Kegel AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049BD97D2B9B5496009D3C0E /* Kegel App */ = {
+			isa = PBXGroup;
+			children = (
+				049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */,
+				049BD9802B9B5496009D3C0E /* ContentView.swift */,
+				049BD9822B9B5499009D3C0E /* Assets.xcassets */,
+				049BD9842B9B5499009D3C0E /* Preview Content */,
+			);
+			path = "Kegel App";
+			sourceTree = "<group>";
+		};
+		049BD9842B9B5499009D3C0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		049BD98E2B9B5499009D3C0E /* Kegel AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				049BD98F2B9B5499009D3C0E /* Kegel_AppTests.swift */,
+			);
+			path = "Kegel AppTests";
+			sourceTree = "<group>";
+		};
+		049BD9982B9B5499009D3C0E /* Kegel AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049BD9992B9B5499009D3C0E /* Kegel_AppUITests.swift */,
+				049BD99B2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift */,
+			);
+			path = "Kegel AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049BD97A2B9B5496009D3C0E /* Kegel App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BD99F2B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel App" */;
+			buildPhases = (
+				049BD9772B9B5496009D3C0E /* Sources */,
+				049BD9782B9B5496009D3C0E /* Frameworks */,
+				049BD9792B9B5496009D3C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kegel App";
+			productName = "Kegel App";
+			productReference = 049BD97B2B9B5496009D3C0E /* Kegel App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049BD98A2B9B5499009D3C0E /* Kegel AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BD9A22B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel AppTests" */;
+			buildPhases = (
+				049BD9872B9B5499009D3C0E /* Sources */,
+				049BD9882B9B5499009D3C0E /* Frameworks */,
+				049BD9892B9B5499009D3C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049BD98D2B9B5499009D3C0E /* PBXTargetDependency */,
+			);
+			name = "Kegel AppTests";
+			productName = "Kegel AppTests";
+			productReference = 049BD98B2B9B5499009D3C0E /* Kegel AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049BD9942B9B5499009D3C0E /* Kegel AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049BD9A52B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel AppUITests" */;
+			buildPhases = (
+				049BD9912B9B5499009D3C0E /* Sources */,
+				049BD9922B9B5499009D3C0E /* Frameworks */,
+				049BD9932B9B5499009D3C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049BD9972B9B5499009D3C0E /* PBXTargetDependency */,
+			);
+			name = "Kegel AppUITests";
+			productName = "Kegel AppUITests";
+			productReference = 049BD9952B9B5499009D3C0E /* Kegel AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049BD9732B9B5496009D3C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					049BD97A2B9B5496009D3C0E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					049BD98A2B9B5499009D3C0E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 049BD97A2B9B5496009D3C0E;
+					};
+					049BD9942B9B5499009D3C0E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 049BD97A2B9B5496009D3C0E;
+					};
+				};
+			};
+			buildConfigurationList = 049BD9762B9B5496009D3C0E /* Build configuration list for PBXProject "Kegel App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049BD9722B9B5496009D3C0E;
+			productRefGroup = 049BD97C2B9B5496009D3C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049BD97A2B9B5496009D3C0E /* Kegel App */,
+				049BD98A2B9B5499009D3C0E /* Kegel AppTests */,
+				049BD9942B9B5499009D3C0E /* Kegel AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049BD9792B9B5496009D3C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */,
+				049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9892B9B5499009D3C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9932B9B5499009D3C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049BD9772B9B5496009D3C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD9812B9B5496009D3C0E /* ContentView.swift in Sources */,
+				049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9872B9B5499009D3C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD9902B9B5499009D3C0E /* Kegel_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049BD9912B9B5499009D3C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049BD99A2B9B5499009D3C0E /* Kegel_AppUITests.swift in Sources */,
+				049BD99C2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049BD98D2B9B5499009D3C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049BD97A2B9B5496009D3C0E /* Kegel App */;
+			targetProxy = 049BD98C2B9B5499009D3C0E /* PBXContainerItemProxy */;
+		};
+		049BD9972B9B5499009D3C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049BD97A2B9B5496009D3C0E /* Kegel App */;
+			targetProxy = 049BD9962B9B5499009D3C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049BD99D2B9B5499009D3C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049BD99E2B9B5499009D3C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049BD9A02B9B5499009D3C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kegel App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049BD9A12B9B5499009D3C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kegel App/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		049BD9A32B9B5499009D3C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kegel App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kegel App";
+			};
+			name = Debug;
+		};
+		049BD9A42B9B5499009D3C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kegel App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kegel App";
+			};
+			name = Release;
+		};
+		049BD9A62B9B5499009D3C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kegel App";
+			};
+			name = Debug;
+		};
+		049BD9A72B9B5499009D3C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR4XR5VH35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.komiselen.Kegel-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kegel App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049BD9762B9B5496009D3C0E /* Build configuration list for PBXProject "Kegel App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD99D2B9B5499009D3C0E /* Debug */,
+				049BD99E2B9B5499009D3C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BD99F2B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD9A02B9B5499009D3C0E /* Debug */,
+				049BD9A12B9B5499009D3C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BD9A22B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD9A32B9B5499009D3C0E /* Debug */,
+				049BD9A42B9B5499009D3C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049BD9A52B9B5499009D3C0E /* Build configuration list for PBXNativeTarget "Kegel AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049BD9A62B9B5499009D3C0E /* Debug */,
+				049BD9A72B9B5499009D3C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049BD9732B9B5496009D3C0E /* Project object */;
+}
