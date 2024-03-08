@@ -14,6 +14,13 @@
 		049BD9902B9B5499009D3C0E /* Kegel_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD98F2B9B5499009D3C0E /* Kegel_AppTests.swift */; };
 		049BD99A2B9B5499009D3C0E /* Kegel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9992B9B5499009D3C0E /* Kegel_AppUITests.swift */; };
 		049BD99C2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD99B2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift */; };
+		049BD9A92B9B5E04009D3C0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9A82B9B5E04009D3C0E /* GoogleService-Info.plist */; };
+		049BD9AC2B9B6029009D3C0E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 049BD9AB2B9B6029009D3C0E /* FirebaseAnalytics */; };
+		049BD9AE2B9B6029009D3C0E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 049BD9AD2B9B6029009D3C0E /* FirebaseAnalyticsOnDeviceConversion */; };
+		049BD9B02B9B6029009D3C0E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 049BD9AF2B9B6029009D3C0E /* FirebaseAnalyticsSwift */; };
+		049BD9B42B9B62B5009D3C0E /* PlanTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9B32B9B62B5009D3C0E /* PlanTabView.swift */; };
+		049BD9B82B9B62E0009D3C0E /* SexologyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9B72B9B62E0009D3C0E /* SexologyTabView.swift */; };
+		049BD9BA2B9B6338009D3C0E /* ProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9B92B9B6338009D3C0E /* ProfileTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,17 @@
 		049BD97B2B9B5496009D3C0E /* Kegel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kegel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppApp.swift; sourceTree = "<group>"; };
 		049BD9802B9B5496009D3C0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		049BD9822B9B5499009D3C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049BD9822B9B5499009D3C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Kegel App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		049BD98B2B9B5499009D3C0E /* Kegel AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kegel AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BD98F2B9B5499009D3C0E /* Kegel_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppTests.swift; sourceTree = "<group>"; };
 		049BD9952B9B5499009D3C0E /* Kegel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kegel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BD9992B9B5499009D3C0E /* Kegel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppUITests.swift; sourceTree = "<group>"; };
 		049BD99B2B9B5499009D3C0E /* Kegel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		049BD9A82B9B5E04009D3C0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		049BD9B32B9B62B5009D3C0E /* PlanTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTabView.swift; sourceTree = "<group>"; };
+		049BD9B72B9B62E0009D3C0E /* SexologyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexologyTabView.swift; sourceTree = "<group>"; };
+		049BD9B92B9B6338009D3C0E /* ProfileTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049BD9B02B9B6029009D3C0E /* FirebaseAnalyticsSwift in Frameworks */,
+				049BD9AC2B9B6029009D3C0E /* FirebaseAnalytics in Frameworks */,
+				049BD9AE2B9B6029009D3C0E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */,
-				049BD9802B9B5496009D3C0E /* ContentView.swift */,
+				049BD9A82B9B5E04009D3C0E /* GoogleService-Info.plist */,
+				049BD9B62B9B62C4009D3C0E /* ViewModel */,
+				049BD9B52B9B62BE009D3C0E /* Model */,
+				049BD9B12B9B628A009D3C0E /* View */,
 				049BD9822B9B5499009D3C0E /* Assets.xcassets */,
 				049BD9842B9B5499009D3C0E /* Preview Content */,
 			);
@@ -127,6 +144,39 @@
 			path = "Kegel AppUITests";
 			sourceTree = "<group>";
 		};
+		049BD9B12B9B628A009D3C0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049BD9BB2B9B633E009D3C0E /* Tabs */,
+				049BD9802B9B5496009D3C0E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049BD9B52B9B62BE009D3C0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049BD9B62B9B62C4009D3C0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		049BD9BB2B9B633E009D3C0E /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				049BD9B32B9B62B5009D3C0E /* PlanTabView.swift */,
+				049BD9B72B9B62E0009D3C0E /* SexologyTabView.swift */,
+				049BD9B92B9B6338009D3C0E /* ProfileTabView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +193,11 @@
 			dependencies = (
 			);
 			name = "Kegel App";
+			packageProductDependencies = (
+				049BD9AB2B9B6029009D3C0E /* FirebaseAnalytics */,
+				049BD9AD2B9B6029009D3C0E /* FirebaseAnalyticsOnDeviceConversion */,
+				049BD9AF2B9B6029009D3C0E /* FirebaseAnalyticsSwift */,
+			);
 			productName = "Kegel App";
 			productReference = 049BD97B2B9B5496009D3C0E /* Kegel App.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 049BD9722B9B5496009D3C0E;
+			packageReferences = (
+				049BD9AA2B9B6029009D3C0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 049BD97C2B9B5496009D3C0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +291,7 @@
 			files = (
 				049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */,
 				049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */,
+				049BD9A92B9B5E04009D3C0E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049BD9B82B9B62E0009D3C0E /* SexologyTabView.swift in Sources */,
+				049BD9BA2B9B6338009D3C0E /* ProfileTabView.swift in Sources */,
 				049BD9812B9B5496009D3C0E /* ContentView.swift in Sources */,
 				049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */,
+				049BD9B42B9B62B5009D3C0E /* PlanTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +650,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		049BD9AA2B9B6029009D3C0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		049BD9AB2B9B6029009D3C0E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049BD9AA2B9B6029009D3C0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		049BD9AD2B9B6029009D3C0E /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049BD9AA2B9B6029009D3C0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		049BD9AF2B9B6029009D3C0E /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 049BD9AA2B9B6029009D3C0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 049BD9732B9B5496009D3C0E /* Project object */;
 }
