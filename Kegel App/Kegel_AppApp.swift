@@ -31,18 +31,19 @@ struct Kegel_AppApp: App {
                                 Label("Plan", systemImage: "")
                             }
                         
-                        SexologyTabView()
+                        CoursesTabView()
                             .tabItem {
-                                Label("Sexology", systemImage: "")
+                                Label("Courses", systemImage: "")
                             }
                         
                         ProfileTabView()
                             .tabItem {
                                 Label("Profile", systemImage: "person.crop.circle")
                             }
+                        
                     }
                     .toolbarBackground(.visible, for: .tabBar)
-                    .toolbarBackground(.gray, for: .tabBar)
+                    .toolbarBackground(LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom), for: .tabBar)
                     .toolbarColorScheme(.dark, for: .tabBar)
                 }
                 

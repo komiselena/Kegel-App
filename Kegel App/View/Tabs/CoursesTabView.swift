@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct SexologyTabView: View {
+struct CoursesTabView: View {
     var body: some View {
         ScrollView{
-            Text("Sexology")
+            
         }
     }
 }
 
 #Preview {
-    SexologyTabView()
+    CoursesTabView()
 }
