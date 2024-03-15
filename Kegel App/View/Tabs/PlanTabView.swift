@@ -9,15 +9,25 @@ import SwiftUI
 
 struct PlanTabView: View {
     var body: some View {
-        ZStack{
-            LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom)
-                .ignoresSafeArea()
-            ScrollView{
-                CurrentDate()
-                CalenderPlanView()
-                Divider()
-                    .background(.gray)
-                
+        NavigationStack{
+            ZStack{
+                LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom)
+                    .ignoresSafeArea()
+                ScrollView{
+                    CurrentDate()
+                    CalenderPlanView()
+                    Divider()
+                        .background(.gray)
+                    TitleKegelTrainingAndSeeAllButton()
+                    NavigationLink(destination: {
+                        // --TODO--
+                        
+                        
+                    }, label: {
+                        ActionWindowView()
+
+                    })
+                }
             }
         }
     }
@@ -35,15 +45,31 @@ extension View{
     PlanTabView()
 }
 
-struct CurrentDate: View {
+
+
+struct TitleKegelTrainingAndSeeAllButton: View {
     var body: some View {
-        VStack(){
-            Text(Date().formatted(date: .complete, time: .omitted))
+        HStack{
+            Text("Kegel Training")
+                .font(.title3)
                 .foregroundStyle(.white)
-                .font(.callout)
-                .hLeading()
-                .padding()
+            Spacer()
+            
+            NavigationLink(destination: {
+                // Navigation destination here
+                // --TODO--
+                
+                
+                
+            }, label: {
+                HStack{
+                    Text("See All")
+                    Image(systemName: "chevron.forward")
+                }
+                .foregroundStyle(.white)
+            })
             
         }
+        .padding()
     }
 }

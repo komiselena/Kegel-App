@@ -20,10 +20,11 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct Kegel_AppApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    let gradient = LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom)
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
+            NavigationStack{
                 TabView{
                     Group{
                         PlanTabView()
@@ -43,7 +44,7 @@ struct Kegel_AppApp: App {
                         
                     }
                     .toolbarBackground(.visible, for: .tabBar)
-                    .toolbarBackground(LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom), for: .tabBar)
+                    .toolbarBackground(gradient, for: .tabBar)
                     .toolbarColorScheme(.dark, for: .tabBar)
                 }
                 
