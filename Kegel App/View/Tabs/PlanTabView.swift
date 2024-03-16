@@ -14,7 +14,22 @@ struct PlanTabView: View {
                 LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
                 ScrollView{
-                    CurrentDate()
+                    HStack{
+                        CurrentDate()
+                        Spacer()
+                        NavigationLink(destination: {
+                            // --TODO--
+                            
+                            
+                        }, label: {
+                            Label("Info", systemImage: "info.circle.fill")
+                                .labelStyle(.iconOnly)
+                                .foregroundStyle(.white)
+                                .font(.headline)
+
+                        })
+                    }
+                    .padding(.horizontal, 15)
                     CalenderPlanView()
                     Divider()
                         .background(.gray)
@@ -27,6 +42,9 @@ struct PlanTabView: View {
                         ActionWindowView()
 
                     })
+                    TitleSexologyCoursesAndSeeAllButton()
+                    SexologyCoursesView()
+                    
                 }
             }
         }
@@ -47,29 +65,4 @@ extension View{
 
 
 
-struct TitleKegelTrainingAndSeeAllButton: View {
-    var body: some View {
-        HStack{
-            Text("Kegel Training")
-                .font(.title3)
-                .foregroundStyle(.white)
-            Spacer()
-            
-            NavigationLink(destination: {
-                // Navigation destination here
-                // --TODO--
-                
-                
-                
-            }, label: {
-                HStack{
-                    Text("See All")
-                    Image(systemName: "chevron.forward")
-                }
-                .foregroundStyle(.white)
-            })
-            
-        }
-        .padding()
-    }
-}
+

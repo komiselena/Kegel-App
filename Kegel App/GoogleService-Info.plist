@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyASHsdp_vhKl7NBWtEQ5MmZ_TyEArLPtTs</string>
+	<string>AIzaSyDkx2M6E8RlPPupWLdZIE0LIWA4k3q0Mrg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>965514916696</string>
+	<string>945967110339</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>name.komiselen.Kegel-App</string>
 	<key>PROJECT_ID</key>
-	<string>kegel-app-project</string>
+	<string>kegel-487a5</string>
 	<key>STORAGE_BUCKET</key>
-	<string>kegel-app-project.appspot.com</string>
+	<string>kegel-487a5.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:965514916696:ios:492f5f63e0db216831eb2d</string>
+	<string>1:945967110339:ios:c9b327f6622be95446aa76</string>
 </dict>
 </plist>

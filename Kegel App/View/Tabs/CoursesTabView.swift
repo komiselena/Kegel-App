@@ -10,7 +10,7 @@ import SwiftUI
 struct CoursesTabView: View {
     var body: some View {
         ScrollView{
-            
+            Text("Courses")
         }
     }
 }
