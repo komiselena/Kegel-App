@@ -13,7 +13,6 @@ struct CurrentDate: View {
             Text(Date().formatted(date: .complete, time: .omitted))
                 .foregroundStyle(.white)
                 .font(.callout)
-                .padding(.vertical)
             
         }
     }

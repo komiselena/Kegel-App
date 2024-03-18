@@ -16,6 +16,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
   }
 }
 
+enum Tab {
+    case plan
+    case courses
+    case profile
+}
+
 @main
 struct Kegel_AppApp: App {
     

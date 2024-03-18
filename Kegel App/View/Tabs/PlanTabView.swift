@@ -13,7 +13,7 @@ struct PlanTabView: View {
             ZStack{
                 LinearGradient(colors: [Color("TopColorPlan"), Color("BottomColorPlan")], startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
-                ScrollView{
+                VStack{
                     HStack{
                         CurrentDate()
                         Spacer()
@@ -25,26 +25,30 @@ struct PlanTabView: View {
                             Label("Info", systemImage: "info.circle.fill")
                                 .labelStyle(.iconOnly)
                                 .foregroundStyle(.white)
-                                .font(.headline)
-
+                                .font(.title3)
+                            
                         })
                     }
                     .padding(.horizontal, 15)
                     CalenderPlanView()
                     Divider()
                         .background(.gray)
-                    TitleKegelTrainingAndSeeAllButton()
-                    NavigationLink(destination: {
-                        // --TODO--
+                    ScrollView{
                         
-                        
-                    }, label: {
-                        ActionWindowView()
-
-                    })
-                    TitleSexologyCoursesAndSeeAllButton()
-                    SexologyCoursesView()
-                    
+                        TitleKegelTrainingAndSeeAllButton()
+                        NavigationLink(destination: {
+                            // --TODO--
+                            
+                            
+                        }, label: {
+                            ActionWindowView()
+                            
+                        })
+                        TitleSexologyCoursesAndSeeAllButton()
+                        SexologyCoursesView()
+                        TipsView()
+                            .padding(.vertical)
+                    }
                 }
             }
         }

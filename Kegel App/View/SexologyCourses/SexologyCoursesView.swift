@@ -12,10 +12,10 @@ struct SexologyCoursesView: View {
         NavigationStack{
             ScrollView(.horizontal){
                 HStack{
-                    SelectCoursesButton()
+                    SelectCourses()
                 }
                 
-            }     
+            }
             .padding(.horizontal)
 
         }
@@ -26,9 +26,8 @@ struct SexologyCoursesView: View {
     SexologyCoursesView()
 }
 
-struct SelectCoursesButton: View {
+struct SelectCourses: View {
     var body: some View {
-        
         ZStack{
             RoundedRectangle(cornerRadius: 16)
                 .frame(width: 103, height: 123)

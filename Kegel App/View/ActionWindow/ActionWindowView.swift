@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ActionWindowView: View {
-    @ScaledMetric var actionWindowHeight: CGFloat = 350
+    @ScaledMetric var actionWindowHeight: CGFloat = 330
     var body: some View {
         NavigationStack{
             ZStack{

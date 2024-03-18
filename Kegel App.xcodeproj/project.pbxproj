@@ -13,6 +13,7 @@
 		042982CA2BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982C92BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift */; };
 		042982CD2BA4B4A30014424A /* SexologyCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982CC2BA4B4A30014424A /* SexologyCoursesView.swift */; };
 		042982CF2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982CE2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift */; };
+		042982D22BA6E6E10014424A /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982D12BA6E6E10014424A /* TipsView.swift */; };
 		049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */; };
 		049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9822B9B5499009D3C0E /* Assets.xcassets */; };
 		049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		042982C92BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleKegelTrainingAndSeeAllButton.swift; sourceTree = "<group>"; };
 		042982CC2BA4B4A30014424A /* SexologyCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexologyCoursesView.swift; sourceTree = "<group>"; };
 		042982CE2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSexologyCoursesAndSeeAllButton.swift; sourceTree = "<group>"; };
+		042982D12BA6E6E10014424A /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		049BD97B2B9B5496009D3C0E /* Kegel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kegel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppApp.swift; sourceTree = "<group>"; };
 		049BD9822B9B5499009D3C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Kegel App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
@@ -115,6 +117,14 @@
 			path = SexologyCourses;
 			sourceTree = "<group>";
 		};
+		042982D02BA6E6B70014424A /* Tip&Insights */ = {
+			isa = PBXGroup;
+			children = (
+				042982D12BA6E6E10014424A /* TipsView.swift */,
+			);
+			path = "Tip&Insights";
+			sourceTree = "<group>";
+		};
 		049BD9722B9B5496009D3C0E = {
 			isa = PBXGroup;
 			children = (
@@ -138,9 +148,9 @@
 		049BD97D2B9B5496009D3C0E /* Kegel App */ = {
 			isa = PBXGroup;
 			children = (
-				049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */,
 				042982C72BA4225C0014424A /* GoogleService-Info.plist */,
 				049BD9B62B9B62C4009D3C0E /* ViewModel */,
+				049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */,
 				049BD9B52B9B62BE009D3C0E /* Model */,
 				049BD9C12B9F7DD9009D3C0E /* Calendar */,
 				049BD9B12B9B628A009D3C0E /* View */,
@@ -178,6 +188,7 @@
 		049BD9B12B9B628A009D3C0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				042982D02BA6E6B70014424A /* Tip&Insights */,
 				042982CB2BA4B42E0014424A /* SexologyCourses */,
 				042982C22BA21B1E0014424A /* ActionWindow */,
 				049BD9BB2B9B633E009D3C0E /* Tabs */,
@@ -358,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042982D22BA6E6E10014424A /* TipsView.swift in Sources */,
 				049BD9B82B9B62E0009D3C0E /* CoursesTabView.swift in Sources */,
 				042982CF2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift in Sources */,
 				042982CD2BA4B4A30014424A /* SexologyCoursesView.swift in Sources */,
