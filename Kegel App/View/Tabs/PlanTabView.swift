@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PlanTabView: View {
+    @ObservedObject var titleSeeAllBut = TitleAndSeeAllButton()
     var body: some View {
         NavigationStack{
             ZStack{
@@ -35,19 +36,33 @@ struct PlanTabView: View {
                         .background(.gray)
                     ScrollView{
                         
-                        TitleKegelTrainingAndSeeAllButton()
-                        NavigationLink(destination: {
+                        //MARK: Action Window
+                        titleSeeAllBut.TitleAndSeeAllButton(title: "Kegel Training", navDestination: {
+                            // Nav Destination here
                             // --TODO--
                             
+                        })
+                        
+                        NavigationLink(destination: {
+                            // --TODO--
                             
                         }, label: {
                             ActionWindowView()
                             
                         })
-                        TitleSexologyCoursesAndSeeAllButton()
-                        SexologyCoursesView()
-                        TipsView()
+                        
+                        
+                        //MARK: TIPS&INSIGHTS
+                        
+                        TipView()
                             .padding(.vertical)
+                        titleSeeAllBut.TitleAndSeeAllButton(title: "Latest Insights", navDestination: {
+                            // Nav Destination here
+                            // --TODO--
+                            
+                        })
+                        InsightsView()
+                        
                     }
                 }
             }

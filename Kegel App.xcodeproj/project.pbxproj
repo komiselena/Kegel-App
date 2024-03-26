@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041030DC2BA99A5800DD53A5 /* TitleAndSeeAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041030DB2BA99A5800DD53A5 /* TitleAndSeeAllButton.swift */; };
 		042982C42BA21B380014424A /* ActionWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982C32BA21B380014424A /* ActionWindowView.swift */; };
 		042982C62BA32E180014424A /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982C52BA32E180014424A /* CurrentDate.swift */; };
 		042982C82BA4225C0014424A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042982C72BA4225C0014424A /* GoogleService-Info.plist */; };
-		042982CA2BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982C92BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift */; };
 		042982CD2BA4B4A30014424A /* SexologyCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982CC2BA4B4A30014424A /* SexologyCoursesView.swift */; };
-		042982CF2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982CE2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift */; };
-		042982D22BA6E6E10014424A /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982D12BA6E6E10014424A /* TipsView.swift */; };
+		042982D22BA6E6E10014424A /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042982D12BA6E6E10014424A /* TipView.swift */; };
 		049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */; };
 		049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9822B9B5499009D3C0E /* Assets.xcassets */; };
 		049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049BD9852B9B5499009D3C0E /* Preview Assets.xcassets */; };
@@ -28,6 +27,11 @@
 		049BD9BA2B9B6338009D3C0E /* ProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9B92B9B6338009D3C0E /* ProfileTabView.swift */; };
 		049BD9BD2B9F3A51009D3C0E /* CalenderPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9BC2B9F3A51009D3C0E /* CalenderPlanView.swift */; };
 		049BD9BF2B9F7D8F009D3C0E /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BD9BE2B9F7D8F009D3C0E /* CalendarManager.swift */; };
+		04C78E722BADC40A00D53883 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C78E712BADC40A00D53883 /* StoryView.swift */; };
+		04C78E782BADEEDF00D53883 /* Screenshot 2024-03-22 at 19.52.41.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C78E772BADEEDE00D53883 /* Screenshot 2024-03-22 at 19.52.41.png */; };
+		04DDE97C2BAC63C3005E03C5 /* StoryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE97B2BAC63C3005E03C5 /* StoryBundle.swift */; };
+		04DDE97E2BAC64E7005E03C5 /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE97D2BAC64E7005E03C5 /* StoryViewModel.swift */; };
+		04DDE9802BAC65B5005E03C5 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE97F2BAC65B5005E03C5 /* InsightsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041030DB2BA99A5800DD53A5 /* TitleAndSeeAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndSeeAllButton.swift; sourceTree = "<group>"; };
 		042982C32BA21B380014424A /* ActionWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionWindowView.swift; sourceTree = "<group>"; };
 		042982C52BA32E180014424A /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
 		042982C72BA4225C0014424A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		042982C92BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleKegelTrainingAndSeeAllButton.swift; sourceTree = "<group>"; };
 		042982CC2BA4B4A30014424A /* SexologyCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexologyCoursesView.swift; sourceTree = "<group>"; };
-		042982CE2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSexologyCoursesAndSeeAllButton.swift; sourceTree = "<group>"; };
-		042982D12BA6E6E10014424A /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		042982D12BA6E6E10014424A /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		049BD97B2B9B5496009D3C0E /* Kegel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kegel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kegel_AppApp.swift; sourceTree = "<group>"; };
 		049BD9822B9B5499009D3C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Kegel App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
@@ -69,6 +72,11 @@
 		049BD9B92B9B6338009D3C0E /* ProfileTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabView.swift; sourceTree = "<group>"; };
 		049BD9BC2B9F3A51009D3C0E /* CalenderPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderPlanView.swift; sourceTree = "<group>"; };
 		049BD9BE2B9F7D8F009D3C0E /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		04C78E712BADC40A00D53883 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		04C78E772BADEEDE00D53883 /* Screenshot 2024-03-22 at 19.52.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-03-22 at 19.52.41.png"; sourceTree = "<group>"; };
+		04DDE97B2BAC63C3005E03C5 /* StoryBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBundle.swift; sourceTree = "<group>"; };
+		04DDE97D2BAC64E7005E03C5 /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		04DDE97F2BAC65B5005E03C5 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				042982C32BA21B380014424A /* ActionWindowView.swift */,
-				042982C92BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift */,
 			);
 			path = ActionWindow;
 			sourceTree = "<group>";
@@ -112,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				042982CC2BA4B4A30014424A /* SexologyCoursesView.swift */,
-				042982CE2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift */,
 			);
 			path = SexologyCourses;
 			sourceTree = "<group>";
@@ -120,7 +126,8 @@
 		042982D02BA6E6B70014424A /* Tip&Insights */ = {
 			isa = PBXGroup;
 			children = (
-				042982D12BA6E6E10014424A /* TipsView.swift */,
+				04DDE9792BAC6323005E03C5 /* StoriesView */,
+				042982D12BA6E6E10014424A /* TipView.swift */,
 			);
 			path = "Tip&Insights";
 			sourceTree = "<group>";
@@ -149,12 +156,13 @@
 			isa = PBXGroup;
 			children = (
 				042982C72BA4225C0014424A /* GoogleService-Info.plist */,
-				049BD9B62B9B62C4009D3C0E /* ViewModel */,
 				049BD97E2B9B5496009D3C0E /* Kegel_AppApp.swift */,
 				049BD9B52B9B62BE009D3C0E /* Model */,
+				049BD9B62B9B62C4009D3C0E /* ViewModel */,
 				049BD9C12B9F7DD9009D3C0E /* Calendar */,
 				049BD9B12B9B628A009D3C0E /* View */,
 				049BD9822B9B5499009D3C0E /* Assets.xcassets */,
+				04C78E772BADEEDE00D53883 /* Screenshot 2024-03-22 at 19.52.41.png */,
 				049BD9842B9B5499009D3C0E /* Preview Content */,
 			);
 			path = "Kegel App";
@@ -206,6 +214,7 @@
 		049BD9B62B9B62C4009D3C0E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				041030DB2BA99A5800DD53A5 /* TitleAndSeeAllButton.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -228,6 +237,17 @@
 				042982C52BA32E180014424A /* CurrentDate.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		04DDE9792BAC6323005E03C5 /* StoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				04DDE97B2BAC63C3005E03C5 /* StoryBundle.swift */,
+				04DDE97D2BAC64E7005E03C5 /* StoryViewModel.swift */,
+				04DDE97F2BAC65B5005E03C5 /* InsightsView.swift */,
+				04C78E712BADC40A00D53883 /* StoryView.swift */,
+			);
+			path = StoriesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +364,7 @@
 			files = (
 				049BD9862B9B5499009D3C0E /* Preview Assets.xcassets in Resources */,
 				042982C82BA4225C0014424A /* GoogleService-Info.plist in Resources */,
+				04C78E782BADEEDF00D53883 /* Screenshot 2024-03-22 at 19.52.41.png in Resources */,
 				049BD9832B9B5499009D3C0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,16 +390,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042982D22BA6E6E10014424A /* TipsView.swift in Sources */,
+				04DDE9802BAC65B5005E03C5 /* InsightsView.swift in Sources */,
+				042982D22BA6E6E10014424A /* TipView.swift in Sources */,
 				049BD9B82B9B62E0009D3C0E /* CoursesTabView.swift in Sources */,
-				042982CF2BA4B6F80014424A /* TitleSexologyCoursesAndSeeAllButton.swift in Sources */,
 				042982CD2BA4B4A30014424A /* SexologyCoursesView.swift in Sources */,
-				042982CA2BA4B4040014424A /* TitleKegelTrainingAndSeeAllButton.swift in Sources */,
 				049BD9BA2B9B6338009D3C0E /* ProfileTabView.swift in Sources */,
 				049BD9BD2B9F3A51009D3C0E /* CalenderPlanView.swift in Sources */,
+				04C78E722BADC40A00D53883 /* StoryView.swift in Sources */,
 				049BD9BF2B9F7D8F009D3C0E /* CalendarManager.swift in Sources */,
+				04DDE97E2BAC64E7005E03C5 /* StoryViewModel.swift in Sources */,
 				042982C62BA32E180014424A /* CurrentDate.swift in Sources */,
 				049BD97F2B9B5496009D3C0E /* Kegel_AppApp.swift in Sources */,
+				04DDE97C2BAC63C3005E03C5 /* StoryBundle.swift in Sources */,
+				041030DC2BA99A5800DD53A5 /* TitleAndSeeAllButton.swift in Sources */,
 				042982C42BA21B380014424A /* ActionWindowView.swift in Sources */,
 				049BD9B42B9B62B5009D3C0E /* PlanTabView.swift in Sources */,
 			);
@@ -547,11 +571,13 @@
 				DEVELOPMENT_TEAM = ZR4XR5VH35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kegel App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,11 +604,13 @@
 				DEVELOPMENT_TEAM = ZR4XR5VH35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kegel App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
