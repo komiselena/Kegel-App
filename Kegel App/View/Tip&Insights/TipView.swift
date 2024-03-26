@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct TipsView: View {
+struct TipView: View {
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 20)
                 .foregroundStyle(Color("TopColorPlan"))
-                .frame(width: 360, height: 190)
+                .frame(width: 360, height: 180)
                 .opacity(0.9)
             
             VStack{
@@ -53,5 +53,5 @@ aspects are vital for overall sexual wellness.
 }
 
 #Preview {
-    TipsView()
+    TipView()
 }

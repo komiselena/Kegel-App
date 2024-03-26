@@ -35,26 +35,34 @@ struct Kegel_AppApp: App {
                     Group{
                         PlanTabView()
                             .tabItem {
-                                Label("Plan", systemImage: "")
+                                Label("Plan", systemImage: "list.bullet.clipboard")
                             }
-                        
+                            
+
                         CoursesTabView()
                             .tabItem {
-                                Label("Courses", systemImage: "")
+                                Label("Highlights", systemImage: "book")
                             }
-                        
+
+
                         ProfileTabView()
                             .tabItem {
                                 Label("Profile", systemImage: "person.crop.circle")
                             }
-                        
+
                     }
                     .toolbarBackground(.visible, for: .tabBar)
                     .toolbarBackground(gradient, for: .tabBar)
                     .toolbarColorScheme(.dark, for: .tabBar)
                 }
-                
-            }
+
+            } 
+
+            .preferredColorScheme(.dark) 
+
         }
+
+
     }
+
 }

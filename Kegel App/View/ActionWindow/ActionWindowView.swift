@@ -14,7 +14,7 @@ struct ActionWindowView: View {
             ZStack{
                 RoundedRectangle(cornerRadius: 15)
                     .padding(.horizontal, 15)
-                    .frame(height: actionWindowHeight)
+                    .frame(width: 390, height: actionWindowHeight)
                     .foregroundStyle(.black)
                 VStack{
                     HStack{
@@ -71,7 +71,6 @@ struct ActionWindowView: View {
 
 
                 }
-                
                 
             }
         }
