@@ -19,9 +19,7 @@ struct PlanTabView: View {
                         CurrentDate()
                         Spacer()
                         NavigationLink(destination: {
-                            // --TODO--
-                            
-                            
+                            QAView()
                         }, label: {
                             Label("Info", systemImage: "info.circle.fill")
                                 .labelStyle(.iconOnly)
@@ -66,6 +64,7 @@ struct PlanTabView: View {
                     }
                 }
             }
+            .toolbarRole(.editor)
         }
     }
     

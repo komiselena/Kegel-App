@@ -12,23 +12,27 @@ class TitleAndSeeAllButton: ObservableObject {
     
     public func TitleAndSeeAllButton<Content: View>(title: String, @ViewBuilder navDestination: @escaping () -> Content) -> some View {
         var body: some View {
-            HStack{
-                Text(title)
-                    .foregroundStyle(.white)
-                    .font(.headline)
-                Spacer()
-                
-                NavigationLink(destination: navDestination){
-                    HStack{
-                        Text("See All")
-                        Image(systemName: "chevron.forward")
+            NavigationStack{
+                HStack{
+                    Text(title)
+                        .foregroundStyle(.white)
+                        .font(.headline)
+                    Spacer()
+                    
+                    NavigationLink(destination: navDestination){
+                        HStack{
+                            Text("See All")
+                            Image(systemName: "chevron.forward")
+                        }
+                        .foregroundStyle(.white)
+                        
                     }
-                    .foregroundStyle(.white)
+                    
                 }
-                
+                .font(.subheadline)
+                .padding()
             }
-            .font(.subheadline)
-            .padding()
+
         }
         
         return body
