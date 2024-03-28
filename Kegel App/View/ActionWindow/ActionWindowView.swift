@@ -73,6 +73,8 @@ struct ActionWindowView: View {
                 }
                 
             }
+            .toolbarRole(.editor)
+
         }
     }
 }

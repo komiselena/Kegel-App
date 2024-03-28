@@ -22,22 +22,8 @@ struct StoryView: View {
                 .tabViewStyle(.page(indexDisplayMode: .never))
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background (.black)
+                .padding(.top)
                 .transition(.move(edge: .bottom))
-                .overlay(
-                    Button(action: {
-                        withAnimation{
-                            storyData.showStory = false
-                        }
-                    }, label: {
-                        Image(systemName: "xmark")
-                            .font(.title2)
-                            .foregroundStyle(.white)
-                    })
-                    .padding()
-                    
-                    ,alignment: .topTrailing
-                    
-                )
             }
         }
     }
@@ -52,7 +38,7 @@ struct StoryCardView: View {
     
     @EnvironmentObject var storyData: StoryViewModel
     
-    @State var timer = Timer.publish(every: 0.5, on: .main, in: .common).autoconnect()
+    @State var timer = Timer.publish(every: 0.02, on: .main, in: .common).autoconnect()
     @State var timerProgress: CGFloat = 0
     
     var body: some View {
@@ -102,9 +88,8 @@ struct StoryCardView: View {
                     }
                 }, label: {
                     Image(systemName: "xmark")
-
                         .font(.title2)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(.accent)
                 })
                 .padding()
                 
@@ -158,7 +143,7 @@ struct StoryCardView: View {
                 }
             }
             if timerProgress < CGFloat(bundle.stories.count){
-                timerProgress += 0.03
+                timerProgress += 0.0025
             }else{
                 updateStory()
             }
@@ -167,40 +152,48 @@ struct StoryCardView: View {
     }
 
     func updateStory (forward: Bool = true){
-        
         let index = min(Int(timerProgress), bundle.stories.count - 1)
-        
         let story = bundle.stories[index]
         
-        if !forward{
-            if let first = storyData.stories.first, first.id != bundle.id{
-                // getting Index...
+        if !forward {
+            if let first = storyData.stories.first, first.id != bundle.id {
                 let bundleIndex = storyData.stories.firstIndex { currentBundle in
                     return bundle.id == currentBundle.id
                 } ?? 0
-                withAnimation{
+                withAnimation {
                     storyData.currentStory = storyData.stories[bundleIndex - 1].id
                 }
-            }
-            else{
+            } else {
                 timerProgress = 0
             }
         }
         
-        if let last = bundle.stories.last, last.id == story.id{
-            if let lastBundle = storyData.stories.last, lastBundle.id == bundle.id{
-                withAnimation{
+        if index >= bundle.stories.count {
+            // Проверка, завершены ли все сторисы
+            stopTimer()
+            return
+        }
+        
+        if let last = bundle.stories.last, last.id == story.id {
+            if let lastBundle = storyData.stories.last, lastBundle.id == bundle.id {
+                withAnimation {
                     storyData.showStory = false
                 }
-            }else{
+            } else {
                 let bundleIndex = storyData.stories.firstIndex { currentBundle in
                     return bundle.id == currentBundle.id
                 } ?? 0
-                withAnimation{
+                withAnimation {
                     storyData.currentStory = storyData.stories[bundleIndex + 1].id
                 }
             }
         }
+    }
+
+    func stopTimer() {
+        // Останавливаем таймер и сбрасываем прогресс
+        timer.upstream.connect().cancel()
+        timerProgress = 0
     }
     
     

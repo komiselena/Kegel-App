@@ -19,9 +19,10 @@ struct TipView: View {
                 HStack{
                     Circle()
                         .fill(.orange)
-                        .frame(width: 14, height: 14)
-                    Text("WHY IT'S IMPORTANT?")
+                        .frame(width: 12, height: 12)
+                    Text("IMPORTANT")
                         .font(.system(size: 18))
+                        .fontWeight(.semibold)
                         .foregroundStyle(.white)
                         .lineLimit(1)
                     
@@ -32,9 +33,7 @@ struct TipView: View {
 
                 
                 Text("""
-Sexual health has two essential
-componets - physical and mental. Both
-aspects are vital for overall sexual wellness.
+Sexual health depends on two key components: physical and psychological. Both of these play a vital role in overall sexual health.
 
 """)
                 .foregroundStyle(.white)
